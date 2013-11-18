@@ -1,0 +1,9 @@
+{ application, fuserlproc,
+  [ 
+    { description, "Proc filesystem for Erlang." }, 
+    { vsn, "0.4.1" },
+    { registered, [  ] },
+    { applications, [ kernel, stdlib, fuserl ] },
+    {mod, {fuserlproc, []}}
+  ] 
+}.
