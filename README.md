@@ -11,10 +11,10 @@ proc-like filesystem.
 # run
 
     [ do once 
-      cp sys.config to local.config
+      cp sys.config local.config
       <edit> local.config
     ]
     erl -config local.config -s fuserlproc
 
-Now you shoule be able to peek into the $HOME/erlproc and
-be able to inspect the Erlang node.
+Now you should be able find the directory $HOME/erlproc (or what ever you called your mount point)
+and be able to inspect the Erlang node.
