@@ -1,7 +1,8 @@
 { application, fuserlproc,
   [ 
     { description, "Proc filesystem for Erlang." }, 
-    { vsn, git },
+    {vsn, git},
+    {modules, ["@@MODULES@@"]},
     { registered, [  ] },
     { applications, [ kernel, stdlib, fuserl ] },
     {mod, {fuserlproc, []}}

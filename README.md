@@ -6,7 +6,7 @@ proc-like filesystem.
 
 # compile
 
-    rebar compile
+    make # or "rebar compile"
 
 # run
 
